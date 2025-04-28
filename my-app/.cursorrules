@@ -36,21 +36,21 @@
 ### E-commerce Website Development Plan
 
 #### Initial Setup
-- [ ] Initialize Next.js 15 project with TypeScript
+- [X] Initialize Next.js 15 project with TypeScript
   - `npx create-next-app@latest --typescript`
-- [ ] Set up project structure (pages, components, lib, etc.)
-- [ ] Install and configure ESLint and Prettier
-- [ ] Set up Git repository
+- [X] Set up project structure (pages, components, lib, etc.)
+- [X] Install and configure ESLint and Prettier
+
 
 #### Database & Authentication
-- [ ] Set up PostgreSQL database
-- [ ] Configure Prisma ORM
+- [X] Set up PostgreSQL database
+- [X] Configure Prisma ORM
   - `npm install prisma @prisma/client`
   - `npx prisma init`
-- [ ] Design database schema (users, products, orders, etc.)
-- [ ] Implement NextAuth v5 authentication
+- [X] Design database schema (users, products, orders, etc.)
+- [X] Implement NextAuth v5 authentication
   - `npm install next-auth@beta`
-- [ ] Create authentication flows (login, register, password reset)
+- [X] Create authentication flows (login, register, password reset)
 
 #### UI Framework & Components
 - [ ] Set up Shadcn UI
